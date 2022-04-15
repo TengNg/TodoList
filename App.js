@@ -138,8 +138,8 @@ function App() {
       />
       <p style={{ marginTop: '1rem' }}>Todo count: {todos.length - getNumberOfCompletedTodos()}</p>
       <div className='textbox'>
-        <p>Press [+] button to add todo</p>
-        <p>Press [--] button to remove all completed todos</p>
+        <p>Click on [+] button to add todo</p>
+        <p>Click on [--] button to remove all completed todos</p>
       </div>
     </>
   );
